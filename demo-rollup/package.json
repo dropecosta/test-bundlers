@@ -1,0 +1,48 @@
+{
+  "name": "@dropecosta/portal-footer-react-rollup",
+  "version": "0.0.16",
+  "description": "Demo Rollup",
+  "main": "dist/cjs/index.ts",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "Pedro Reis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-html": "^1.0.3",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@types/react": "^18.2.55",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "rollup": "^4.10.0",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^1.1.1"
+  },
+  "dependencies": {
+    "@ama-pt/agora-design-system": "^0.13.0",
+    "React": "npm:react@^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropecosta/portal-footer-react-rollup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dropecosta/portal-footer-react-rollup/issues"
+  },
+  "homepage": "https://github.com/dropecosta/portal-footer-react-rollup#readme"
+}
